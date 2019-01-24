@@ -1,0 +1,27 @@
+.hhh{
+    width: 25%;
+    height: 25%;
+    background-color: black;
+    color: white;
+}
+.hhh1{
+    width: 25%;
+    height: 25%;
+    background-color: rgba( 255, 255, 255, 0 );
+}
+.hi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: auto auto;
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-image: url("https://img.fmnation.net/files/attach/images/425025/948/512/027/f210a9fd62144ec668bbb38224eb5938.jpg");
+}
+.go{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}

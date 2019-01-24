@@ -1,0 +1,19 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<div class="hi">
+    {% for blog in blogs.all %}
+        {% if blog.number in dd %}
+            <div class="hhh1">     
+            </div>
+        {% else %}
+            <div class="hhh">
+            [문제{{blog.number}}]  {{blog.title}}      
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+<form class="go" action="{%url 'result'%}">
+    <input type="text" name="hoho">
+<input type="submit">
+</form>
